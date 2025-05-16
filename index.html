@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="矢野翔太のポートフォリオサイト。Web開発を学ぶ学生としての活動と成果をご紹介します。">
+    <title>矢野翔太 - 学生ポートフォリオ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">YS</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="メニュー">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">矢野翔太</h1>
+                    <p class="hero-subtitle">Agriculture × IT Developer</p>
+                    <div class="hero-description">
+                        <p>農業の経験とIT技術を組み合わせ、新しい価値を創造することを目指しています。</p>
+                        <p>農業の課題解決にテクノロジーを活用し、持続可能な農業の実現に貢献したいと考えています。</p>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn primary">制作物を見る</a>
+                        <a href="#contact" class="btn secondary">お問い合わせ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>農業高校での経験を活かし、IT技術で農業の課題解決に取り組む学生エンジニアです。</p>
+                        <p>主な強み：</p>
+                        <ul>
+                            <li>農業の実務経験とIT技術の両立</li>
+                            <li>農業現場の課題理解と解決策の提案</li>
+                            <li>モダンなWeb技術の習得と実践</li>
+                            <li>チーム開発での協調性</li>
+                            <li>持続可能な農業への情熱</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education & Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - </div>
+                        <div class="timeline-content">
+                            <h3>東京デザインテクノロジーセンター専門学校</h3>
+                            <p>スーパーITエンジニア専攻 三年</p>
+                            <ul>
+                                <li>Webアプリケーション開発</li>
+                                <li>農業×ITプロジェクト研究</li>
+                                <li>データベース設計と実装</li>
+                                <li>モバイルアプリ開発</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2017 - 2020</div>
+                        <div class="timeline-content">
+                            <h3>農産高等学校</h3>
+                            <p>農業科 卒業</p>
+                            <ul>
+                                <li>作物栽培実習</li>
+                                <li>農業経営学</li>
+                                <li>農業機械の操作と管理</li>
+                                <li>農業実習での実務経験</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>フロントエンド</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <span class="skill-name">HTML5 / CSS3</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 85%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 75%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">React</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 60%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>その他の技術</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <span class="skill-name">Git / GitHub</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 70%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">SQL</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 65%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">UI/UXデザイン</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 60%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Agriculture × IT Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="img/スクリーンショット 2025-05-16 17.56.41.png" alt="スマート農業管理システムのスクリーンショット" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3>スマート農業管理システム</h3>
+                            <p>専門学校の課題研究として開発。作物の生育状況管理、農作業スケジュール、収穫予測を一元管理できるWebアプリケーション。実際の農家の方々の声を反映し、使いやすいUI/UXを実現。</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small" target="_blank">デモを見る</a>
+                                <a href="#" class="btn small secondary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="img/スクリーンショット 2025-05-16 17.56.50.png" alt="直売所向けECサイトのスクリーンショット" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3>直売所向けECサイト</h3>
+                            <p>地元農家の直売所向けに開発したECサイト。在庫管理、注文処理、配送管理機能を実装。実際の農家の方々に使用していただき、フィードバックを反映。スマートフォンでも使いやすいレスポンシブデザインを採用。</p>
+                            <div class="project-tech">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small" target="_blank">デモを見る</a>
+                                <a href="#" class="btn small secondary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities" class="section">
+            <div class="container">
+                <h2 class="section-title">Activities & Achievements</h2>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>コンテスト実績</h3>
+                        <ul>
+                            <li>農業×ITアイデアソン 最優秀賞</li>
+                            <li>専門学校プログラミングコンテスト 入賞</li>
+                        </ul>
+                    </div>
+                    <div class="activity-card">
+                        <i class="fas fa-users"></i>
+                        <h3>実践活動</h3>
+                        <ul>
+                            <li>地元農家向けIT活用セミナー 講師</li>
+                            <li>農業実習でのスマート農業導入支援</li>
+                        </ul>
+                    </div>
+                    <div class="activity-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>資格・認定</h3>
+                        <ul>
+                            <li>基本情報技術者試験 合格</li>
+                            <li>農業技術検定2級</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <p>インターンシップやお仕事のご相談を承っております。</p>
+                    <div class="contact-info">
+                        <a href="mailto:your.email@example.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>your.email@example.com</span>
+                        </a>
+                        <a href="https://github.com/yourusername" class="contact-item" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://qiita.com/yourusername" class="contact-item" target="_blank">
+                            <i class="fas fa-code"></i>
+                            <span>Qiita</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 矢野翔太. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
