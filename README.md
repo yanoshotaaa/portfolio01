@@ -50,5 +50,4 @@ MIT License
 
 ## 連絡先
 - Email: yanoshotaaa@gmail.com
-- GitHub: [yanoshotaaa](https://github.com/yanoshotaaa)
-- Qiita: [yanoshotaaa](https://qiita.com/yanoshotaaa) 
+- GitHub: [yanoshotaaa](https://github.com/yanoshotaaa) 
